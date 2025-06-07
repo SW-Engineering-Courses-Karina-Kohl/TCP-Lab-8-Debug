@@ -9,9 +9,12 @@ public class Principal {
         System.out.println("10 - 2 = " + calc.subtrair(10, 2));
         System.out.println("4 * 6 = " + calc.multiplicar(4, 6));
         System.out.println("8 / 2 = " + calc.dividir(8, 2));
-        System.out.println("5 / 0 = " + calc.dividir(5, 0)); // Problema intencional
+        System.out.println("5 / 0 = " + calc.dividir(5, 0)); 
         
         // Teste de histórico
         calc.imprimirHistorico();
+
+        calc.imprimirUltimasOperacoes(3); 
+        calc.imprimirUltimasOperacoes(5); 
     }
 }
